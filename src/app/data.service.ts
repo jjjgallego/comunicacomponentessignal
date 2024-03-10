@@ -4,7 +4,7 @@ import { Injectable, signal } from '@angular/core';
   providedIn: 'root'
 })
 export class DataService {
-  shareData = signal<string>('Datos de inicio...');
+  public shareData = signal<string>('Initial data...');
   constructor() { }
   
 }
